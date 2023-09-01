@@ -1,10 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>欢迎来到许新达的个人博客</title>
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+    <!-- Common -->
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lib/themify-icons.css" rel="stylesheet">
+    <link href="css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lib/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
+<!-- /# sidebar -->
+
+
+<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="float-left">
+                    <div class="hamburger sidebar-toggle">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                            <i class="ti-bell"></i>
+                            <div class="drop-down dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">Recent Notifications</span>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Mr. John</div>
+                                                    <div class="notification-text">5 members joined today </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Mariam</div>
+                                                    <div class="notification-text">likes a photo of you</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Tasnim</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">许新达</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#" class="more-link">See All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                            <i class="ti-email"></i>
+                            <div class="drop-down dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">2 New Messages</span>
+                                    <a href="email.html">
+                                        <i class="ti-pencil-alt pull-right"></i>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li class="notification-unread">
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/1.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Michael Qin</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="notification-unread">
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">许新达</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Michael Qin</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">许新达</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#" class="more-link">See All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                <span class="user-avatar">许新达
+                  <i class="ti-angle-down f-s-10"></i>
+                </span>
+                            <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">Upgrade Now</span>
+                                    <p class="trial-day">30 Days Trail</p>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-user"></i>
+                                                <span>Profile</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-email"></i>
+                                                <span>Inbox</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-settings"></i>
+                                                <span>Setting</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-lock"></i>
+                                                <span>Lock Screen</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ti-power-off"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="content-wrap">
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 p-r-0 title-margin-right">
+                    <div class="page-header">
+                        <div class="page-title">
+                            <h1>你好,
+                                <span>欢迎来到我的博客</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+                <div class="col-lg-4 p-l-0 title-margin-left">
+                    <div class="page-header">
+                        <div class="page-title">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="#">Dashboard</a>
+                                </li>
+                                <li class="breadcrumb-item active">App-Profile</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+            </div>
+            <!-- /# row -->
+            <section id="main-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="user-profile">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="user-photo m-b-30">
+                                                <img class="img-fluid" src="images/user-profile.png" alt="" />
+                                            </div>
+                                            <div class="user-work">
+                                                <h4>居住</h4>
+                                                <div class="work-content">
+                                                    <h3>现居 </h3>
+                                                    <p>河北省石家庄市</p>
+                                                    <p>胜利北街17号</p>
+                                                </div>
+                                                <div class="work-content">
+                                                    <h3>学习</h3>
+                                                    <p>河北省石家庄市</p>
+                                                    <p>石家庄铁道大学</p>
+                                                </div>
+                                            </div>
+                                            <div class="user-skill">
+                                                <h4>掌握技能</h4>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">java</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">c++</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">python</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">hadoop集群安装和使用</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">vue</a>
+                                                    </li> <li>
+                                                    <a href="#">springboot</a>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="user-profile-name">许新达</div>
+                                            <div class="user-Location">
+                                                <i class="ti-location-pin"></i> 河北省 ,石家庄市</div>
+                                            <div class="user-job-title">学生</div>
+                                            <div class="ratings">
+                                                <h4>Ratings</h4>
+                                                <div class="rating-star">
+                                                    <span>9.3</span>
+                                                    <i class="ti-star color-primary"></i>
+                                                    <i class="ti-star color-primary"></i>
+                                                    <i class="ti-star color-primary"></i>
+                                                    <i class="ti-star color-primary"></i>
+                                                    <i class="ti-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="user-send-message">
+                                                <button class="btn btn-primary btn-addon" type="button">
+                                                    <i class="ti-email"></i>联系我</button>
+                                            </div>
+                                            <div class="custom-tab user-profile-tab">
+                                                <ul class="nav nav-tabs" role="tablist">
+                                                    <li role="presentation" class="active">
+                                                        <a href="#1" aria-controls="1" role="tab" data-toggle="tab">About</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div role="tabpanel" class="tab-pane active" id="1">
+                                                        <div class="contact-information">
+                                                            <h4>个人信息</h4>
+                                                            <div class="phone-content">
+                                                                <span class="contact-title">电话:</span>
+                                                                <span class="phone-number">+8617757906394</span>
+                                                            </div>
+                                                            <div class="address-content">
+                                                                <span class="contact-title">地址:</span>
+                                                                <span class="mail-address">河北省石家庄市胜利北街17号</span>
+                                                            </div>
+                                                            <div class="email-content">
+                                                                <span class="contact-title">邮箱:</span>
+                                                                <span class="contact-email">1255362618@qq.com</span>
+                                                            </div>
+                                                            <div class="website-content">
+                                                                <span class="contact-title">网站</span>
+                                                                <span class="contact-website">www.xu1255362618.github.io</span>
+                                                            </div>
+                                                            <div class="">
+                                                                <span class="contact-title">现居:</span>
+                                                                <span class="contact-skype">石家庄铁道大学</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="basic-information">
+                                                            <h4>Basic information</h4>
+                                                            <div class="birthday-content">
+                                                                <span class="contact-title">生日:</span>
+                                                                <span class="birth-date">January 31,2002 </span>
+                                                            </div>20
+                                                            <div class="gender-content">
+                                                                <span class="contact-title">性别:</span>
+                                                                <span class="gender">男</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /# row -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>近期项目 </h4>
+
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover ">
+                                        <thead>
+                                        <tr>
+                                            <th>名称</th>
+                                            <th>状态</th>
+                                            <th>日期</th>
+                                            <th>时间</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>基于龙芯的大数据平台部署</td>
+                                            <td>
+                                                <span class="badge badge-primary">Complete</span>
+                                            </td>
+                                            <td>6月01</td>
+                                            <td class="color-primary">4周</td>
+                                        </tr>
+                                        <tr>
+                                            <td>北京市政百姓信件大数据展示</td>
+                                            <td>
+                                                <span class="badge badge-success">Complete</span>
+                                            </td>
+                                            <td>4月30</td>
+                                            <td class="color-success">4周</td>
+                                        </tr>
+                                        <tr>
+                                            <td>观影大数据</td>
+                                            <td>
+                                                <span class="badge badge-success">Complete</span>
+                                            </td>
+                                            <td>2月01</td>
+                                            <td class="color-danger">2周</td>
+                                        </tr>
+                                        <tr>
+                                            <td>基于vue与springboot的老年人健康状况评估系统</td>
+                                            <td>
+                                                <span class="badge badge-success">Complete</span>
+                                            </td>
+                                            <td>1月 22</td>
+                                            <td class="color-primary">2周</td>
+                                        </tr>
+                                        <tr>
+                                            <td>基于jfinal的学生选课系统</td>
+                                            <td>
+                                                <span class="badge badge-success">Complete</span>
+                                            </td>
+                                            <td>1月 01</td>
+                                            <td class="color-success">1周</td>
+                                        </tr>
+                                        <tr>
+                                            <td>大数据京东手机大数据展示</td>
+                                            <td>
+                                                <span class="badge badge-success">Complete</span>
+                                            </td>
+                                            <td>8月25</td>
+                                            <td class="color-danger">1周</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /# column -->
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>近期项目详细 </h4>
+
+                            </div>
+                            <div class="recent-comment">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/avatar/1.jpg" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">基于龙芯平台的大数据自动化部署</h4>
+                                        <p>许新达 </p>
+                                        <div class="comment-action">
+                                            <div class="badge badge-success">点击右侧查看详细</div>
+                                            <span class="m-l-10">
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-reply color-primary"></i>
+                          </a>
+                        </span>
+                                        </div>
+                                        <p class="comment-date">2023 6.01</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/avatar/2.jpg" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">北京市政百姓信件大数据展示</h4>
+                                        <p>许新达</p>
+                                        <div class="comment-action">
+                                            <div class="badge badge-success">点击右侧查看详细</div>
+                                            <span class="m-l-10">
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-reply color-primary"></i>
+                          </a>
+                        </span>
+                                        </div>
+                                        <p class="comment-date">2023.04.15</p>
+                                    </div>
+                                </div>
+                                <div class="media no-border">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/avatar/3.jpg" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">基于vue与springboot老年人健康状况评估系统</h4>
+                                        <p>许新达</p>
+                                        <div class="comment-action">
+                                            <div class="badge badge-success">点击右侧查看详细</div>
+                                            <span class="m-l-10">
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="ti-check color-success"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-reply color-primary"></i>
+                          </a>
+                        </span>
+                                        </div>
+                                        <div class="comment-date">2023.01.02</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /# card -->
+                    </div>
+                    <!-- /# column -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer">
+                            <p>2018 © Admin Board. -
+                                <a href="#">example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Common -->
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/jquery.nanoscroller.min.js"></script>
+<script src="js/lib/menubar/sidebar.js"></script>
+<script src="js/lib/preloader/pace.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
 </body>
+
 </html>
